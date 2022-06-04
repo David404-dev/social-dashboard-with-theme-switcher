@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | [Social Dashboard w/ Light/Dark Toggle]</title>
+  <!----------------------- GOOGLE FONTS --------------------------->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+  <!----------------------- HEADER --------------------------->
+  <header id="header">
+    <section class="left-header-section">
+      <h1>Social Media Dashboard</h1>
+      <p>Total Followers: 23,004</p>
+    </section>
+    <hr>
+    <section class="right-header-section">
+      <div class="toggle-bg">
+        <span class="dark-toggle-text">Dark Mode</span>
+        <div class="toggle-btn"></div>
+      </div>
+    </section>
+  </header>
+  <!----------------------- END HEADER --------------------------->
+
+
+  <main>
+    <!----------------------- BIG SOCIAL CARDS --------------------------->
+    <section class="main-social-cards">
+
+      <div class="big-card">
+        <div class="facebook-card"></div>
+        <img src="./images/icon-facebook.svg" alt="fb-icon">
+        <span class="profile-name">@nathanf</span>
+        <p class="follower-count">1987</p>
+        <p class="followers">Followers</p>
+        <img class="up-arrow" src="./images/icon-up.svg" alt="up-arrow">
+        <span class="today-stats">12 Today</span>
+      </div>
+
+      <div class="big-card">
+        <div class="twitter-card"></div>
+        <img src="./images/icon-twitter.svg" alt="twitter-icon">
+        <span class="profile-name">@nathanf</span>
+        <p class="follower-count">1044</p>
+        <p class="followers">Followers</p>
+        <img class="up-arrow" src="./images/icon-up.svg" alt="up-arrow">
+        <span class="today-stats">90 Today</span>
+      </div>
+
+      <div class="big-card">
+        <div class="instagram-card"></div>
+        <img src="./images/icon-instagram.svg" alt="ig-icon">
+        <span class="profile-name">@nathanf</span>
+        <p class="follower-count">11k</p>
+        <p class="followers">Followers</p>
+        <img class="up-arrow" src="./images/icon-up.svg" alt="up-arrow">
+        <span class="today-stats">1099 Today</span>
+      </div>
+
+      <div class="big-card">
+        <div class="youtube-card"></div>
+        <img src="./images/icon-youtube.svg" alt="yt-icon">
+        <span class="profile-name">@nathanf</span>
+        <p class="follower-count">8239</p>
+        <p class="followers">Subscribers</p>
+        <img class="down-arrow" src="./images/icon-down.svg" alt="down-arrow">
+        <span class="yt-today-stats">144 Today</span>
+      </div>
+
+    </section>
+    <!----------------------- END BIG SOCIAL CARDS --------------------------->
+    <!----------------------- SMALL SOCIAL CARDS --------------------------->
+    <section class="overview-section">
+      <h2 id="h2">Overview - Today</h2>
+
+      <div class="small-card-container">
+
+        <div class="small-card">
+          <div class="top-section-sm-card">
+            <h3>Page Views</h3>
+            <img src="./images/icon-facebook.svg" alt="fb-logo">
+          </div>
+          <div class="bottom-section-sm-card">
+            <p>87</p>
+            <div class="small-today-stats">
+              <img class="small-up-arrow" src="./images/icon-up.svg" alt="up-arrow">
+              <span>303%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="small-card">
+          <div class="top-section-sm-card">
+            <h3>Likes</h3>
+            <img src="./images/icon-facebook.svg" alt="fb-logo">
+          </div>
+          <div class="bottom-section-sm-card">
+            <p>52</p>
+            <div class="small-today-stats-red">
+              <img class="small-down-arrow" src="./images/icon-down.svg" alt="down-arrow">
+              <span>2%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="small-card">
+          <div class="top-section-sm-card">
+            <h3>Likes</h3>
+            <img src="./images/icon-instagram.svg" alt="ig-logo">
+          </div>
+          <div class="bottom-section-sm-card">
+            <p>5462</p>
+            <div class="small-today-stats">
+              <img class="small-up-arrow" src="./images/icon-up.svg" alt="up-arrow">
+              <span>2257%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="small-card">
+          <div class="top-section-sm-card">
+            <h3>Profile Views</h3>
+            <img src="./images/icon-instagram.svg" alt="ig-logo">
+          </div>
+          <div class="bottom-section-sm-card">
+            <p>52k</p>
+            <div class="small-today-stats">
+              <img class="small-up-arrow" src="./images/icon-up.svg" alt="up-arrow">
+              <span>1375%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="small-card">
+          <div class="top-section-sm-card">
+            <h3>Retweets</h3>
+            <img src="./images/icon-twitter.svg" alt="twitter-logo">
+          </div>
+          <div class="bottom-section-sm-card">
+            <p>117</p>
+            <div class="small-today-stats">
+              <img class="small-up-arrow" src="./images/icon-up.svg" alt="up-arrow">
+              <span>303%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="small-card">
+          <div class="top-section-sm-card">
+            <h3>Likes</h3>
+            <img src="./images/icon-twitter.svg" alt="twitter-logo">
+          </div>
+          <div class="bottom-section-sm-card">
+            <p>507</p>
+            <div class="small-today-stats">
+              <img class="small-up-arrow" src="./images/icon-up.svg" alt="up-arrow">
+              <span>553%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="small-card">
+          <div class="top-section-sm-card">
+            <h3>Likes</h3>
+            <img src="./images/icon-youtube.svg" alt="yt-logo">
+          </div>
+          <div class="bottom-section-sm-card">
+            <p>107</p>
+            <div class="small-today-stats-red">
+              <img class="small-down-arrow" src="./images/icon-down.svg" alt="down-arrow">
+              <span>303%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="small-card">
+          <div class="top-section-sm-card">
+            <h3>Total Views</h3>
+            <img src="./images/icon-youtube.svg" alt="yt-logo">
+          </div>
+          <div class="bottom-section-sm-card">
+            <p>1407</p>
+            <div class="small-today-stats-red">
+              <img class="small-down-arrow" src="./images/icon-down.svg" alt="down-arrow">
+              <span>12%</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!----------------------- END SMALL SOCIAL CARDS --------------------------->
+  </main>
+
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
